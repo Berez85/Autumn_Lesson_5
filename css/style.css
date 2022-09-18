@@ -16,7 +16,7 @@
 
 
 @font-face {
-	font-family: "lato_bold";
+	font-family: "lato";
 	src: url("../fonts/lato_bold.woff2") format("woff2"), url("../fonts/lato_bold.woff") format("woff");
 	font-display: swap;
 	font-weight: 700;
@@ -24,7 +24,7 @@
 }
 
 @font-face {
-	font-family: "lato_regular";
+	font-family: "lato";
 	src: url("../fonts/lato_regular.woff2") format("woff2"), url("../fonts/lato_regular.woff") format("woff");
 	font-display: swap;
 	font-weight: 400;
@@ -32,7 +32,7 @@
 }
 
 @font-face {
-	font-family: "lato_black";
+	font-family: "lato";
 	src: url("../fonts/lato_black.woff2") format("woff2"), url("../fonts/lato_black.woff") format("woff");
 	font-display: swap;
 	font-weight: 900;
@@ -40,7 +40,7 @@
 }
 
 @font-face {
-	font-family: "Larsseit-Bold";
+	font-family: "Larsseit";
 	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
 	font-display: swap;
 	font-weight: 700;
@@ -48,7 +48,7 @@
 }
 
 @font-face {
-	font-family: "Larsseit-Medium";
+	font-family: "Larsseit";
 	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
 	font-display: swap;
 	font-weight: 500;
@@ -56,13 +56,12 @@
 }
 
 @font-face {
-	font-family: "Larsseit-Regular";
+	font-family: "Larsseit";
 	src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
 	font-display: swap;
 	font-weight: 400;
 	font-style: normal;
 }
-/* ============================================================================= */
 
 @font-face {
 	font-family: "SFProDisplay";
@@ -99,7 +98,7 @@
 @font-face {
 	font-family: "Brozas";
 	src: url("../fonts/Brozas-ExtraBlack.woff2") format("woff2"), url("../fonts/Brozas-ExtraBlack.woff") format("woff");
-	font-weight: 900;
+	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
 }
@@ -162,7 +161,7 @@
 
 body {
 	color: rgb(40, 131, 173);
-	font-family: "lato_regular";
+	font-family: "lato";
 	font-weight: 400;
 	text-align: center;
 	
@@ -170,8 +169,8 @@ body {
 
 .title {
 	color: darkblue;
-	font-family: "lato_black";
-	font-weight: 900;
+	font-family: "SFProDisplay";
+	font-weight: 700;
 	font-size: 40px;
 	font-style: italic;
 	padding: 20px;
@@ -195,8 +194,8 @@ body {
 }
 
 .list-two {
-	color: darkkhaki;
-	font-family: "Supermercado";
+	color: rgb(247, 239, 140);
+	font-family: "AmerikaPro";
 	font-size: 28px;
 	margin-bottom: 10px;
 }
@@ -210,7 +209,8 @@ body {
 
 .list-four {
 	color: tomato;
-	font-family: "Lato";
+	font-family: "Brozas";
+	font-weight: 400;
 	font-size: 25px;
 	margin-bottom: 10px;
 }
@@ -218,36 +218,44 @@ body {
 .big {
 	color: wheat;
 	font-family: "Nabla";
+	font-weight: 700;
 }
 
 .msr {
 	color: darkgreen;
-	font-family: "lato_bold";
+	font-family: "lato";
+	font-weight: 900;
 }
 
 .fjord {
 	color: violet;
-	font-family: "lato_regular";
+	font-family: "lato";
+	font-weight: 400;
 }
 
 .turbat {
 	color: sandybrown;
-	font-family: "lato_black";
+	font-family: "lato";
+	font-weight: 700;
 }
 
 .saleva {
 	color: blue;
-	font-family: "Larsseit-Bold";
+	font-family: "Larsseit";
+	font-weight: 700;
 }
 
 .site {
 	color: navy;
-	font-family: "Larsseit-Medium";
+	font-family: "Larsseit";
+	font-weight: 500;
 }
 
 .saleva {
 	color: maroon;
-	font-family: "Larsseit-Regular";
+	font-size: 25px;
+	font-family: "Larsseit";
+	font-weight: 400;
 }
 
 .block {
@@ -289,7 +297,6 @@ body {
 
 .subtitle {
 	color: darkkhaki;
-	font-family: "lato_bold";
 	font-weight: 700;
 	font-style: oblique;
 	text-shadow: 2px 2px 5px #000, 5px -3px 8px rgb(255, 166, 0);
@@ -300,8 +307,6 @@ body {
 
 .text-one {
 	color: darkcyan;
-	font-family: "lato_regular";
-	font-weight: 400;
 	font-size: 20px;
 	padding: 10px 0px 10px 0px;
 	margin: 0 auto;
@@ -351,8 +356,6 @@ body {
 	margin: 0 auto;
 	text-indent: 20px;
 	font-size: 20px;
-	
-
 }
 
 .subtitle-two {
@@ -385,6 +388,7 @@ body {
 	font-style: italic;
 	line-height: 1.2;
 	font-family: "Kramola";
+	font-weight: 400;
 }
 
 .text-six {
@@ -393,6 +397,7 @@ body {
 	text-shadow: 1px 2px 15px #000;
 	letter-spacing: 10px;
 	font-family: "RedOctober";
+	font-weight: 300;
 }
 
 .text-seven + p{
@@ -439,6 +444,8 @@ body {
 	padding: 12px 40px 12px 40px;
 	text-shadow: 8px 2px 6px #000;
 	letter-spacing: 8px;
+	font-family: "Lutsk-sity";
+	font-weight: 400;
 }
 
 .text-twelve {
