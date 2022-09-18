@@ -1,0 +1,527 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+
+
+@font-face {
+	font-family: "lato_bold";
+	src: url("../fonts/lato_bold.woff2") format("woff2"), url("../fonts/lato_bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "lato_regular";
+	src: url("../fonts/lato_regular.woff2") format("woff2"), url("../fonts/lato_regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "lato_black";
+	src: url("../fonts/lato_black.woff2") format("woff2"), url("../fonts/lato_black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit-Bold";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit-Medium";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit-Regular";
+	src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+/* ============================================================================= */
+
+@font-face {
+	font-family: "SFProDisplay";
+	src: url("../fonts/SFProDisplay-Light.woff2") format("woff2"), url("../fonts/SFProDisplay-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SFProDisplay";
+	src: url("../fonts/SFProDisplay-Bold.woff2") format("woff2"), url("../fonts/SFProDisplay-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lutsk-sity";
+	src: url("../fonts/Lutsk-sity.woff2") format("woff2"), url("../fonts/Lutsk-sity.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "AmerikaPro";
+	src: url("../fonts/AmerikaPro.woff2") format("woff2"), url("../fonts/AmerikaPro.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Brozas";
+	src: url("../fonts/Brozas-ExtraBlack.woff2") format("woff2"), url("../fonts/Brozas-ExtraBlack.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "KenyanCoffeeStencilSb";
+	src: url("../fonts/KenyanCoffeeStencilSb-Regular.woff2") format("woff2"), url("../fonts/KenyanCoffeeStencilSb-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Kramola";
+	src: url("../fonts/Kramola.woff2") format("woff2"), url("../fonts/Kramola.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "RedOctober";
+	src: url("../fonts/RedOctoberLight.woff2") format("woff2"), url("../fonts/RedOctoberLight.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "RuslanDisplay";
+	src: url("../fonts/RuslanDisplay.woff2") format("woff2"), url("../fonts/RuslanDisplay.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Veles";
+	src: url("../fonts/Veles-Bold.woff2") format("woff2"), url("../fonts/Veles-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Veselka4F";
+	src: url("../fonts/Veselka4F.woff2") format("woff2"), url("../fonts/Veselka4F.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "StalinistOne";
+	src: url("../fonts/StalinistOne-Regular.woff2") format("woff2"), url("../fonts/StalinistOne-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	color: rgb(40, 131, 173);
+	font-family: "lato_regular";
+	font-weight: 400;
+	text-align: center;
+	
+}
+
+.title {
+	color: darkblue;
+	font-family: "lato_black";
+	font-weight: 900;
+	font-size: 40px;
+	font-style: italic;
+	padding: 20px;
+	text-shadow: 2px 2px 5px #000, 5px -3px 8px rgb(0, 26, 255);
+	text-transform: uppercase;
+}
+
+.lists {
+	color: darkcyan;
+	font-style: italic;
+	text-shadow: 3px 5px 10px rgb(126, 126, 126), 5px -3px 8px rgb(145, 94, 0);
+	margin-bottom: 40px;
+	
+}
+
+.list-one {
+	color: darkgoldenrod;
+	font-family: "Comforter";
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.list-two {
+	color: darkkhaki;
+	font-family: "Supermercado";
+	font-size: 28px;
+	margin-bottom: 10px;
+}
+
+.list-three {
+	color: green;
+	font-family: "Lobster";
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.list-four {
+	color: tomato;
+	font-family: "Lato";
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.big {
+	color: wheat;
+	font-family: "Nabla";
+}
+
+.msr {
+	color: darkgreen;
+	font-family: "lato_bold";
+}
+
+.fjord {
+	color: violet;
+	font-family: "lato_regular";
+}
+
+.turbat {
+	color: sandybrown;
+	font-family: "lato_black";
+}
+
+.saleva {
+	color: blue;
+	font-family: "Larsseit-Bold";
+}
+
+.site {
+	color: navy;
+	font-family: "Larsseit-Medium";
+}
+
+.saleva {
+	color: maroon;
+	font-family: "Larsseit-Regular";
+}
+
+.block {
+	background-color: rgb(121, 247, 121);
+	margin-bottom: 20px;
+	padding: 24px;
+	/* width: 800px; */
+	/* margin: 0 auto; */
+}
+
+.block-one {
+	background-color: rgb(179, 170, 255);
+	margin-bottom: 20px;
+	/* margin-left: 100px;  */
+	/* width: 900px; */
+	text-transform: capitalize;
+}
+
+.block-two {
+	background-color: #ffeb7a;
+	margin-bottom: 20px;
+	/* margin-left: 300px; */
+	/* width: 700px; */
+}
+
+.block-three {
+	background-color: rgb(167, 92, 92);
+	margin-bottom: 20px;
+	/* margin-left: 300px; */
+	/* width: 1000px; */
+
+}
+
+#a{
+	color: orange;
+	font-family: "lato";
+	font-weight: 400;
+}
+
+.subtitle {
+	color: darkkhaki;
+	font-family: "lato_bold";
+	font-weight: 700;
+	font-style: oblique;
+	text-shadow: 2px 2px 5px #000, 5px -3px 8px rgb(255, 166, 0);
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: "SFProDisplay";
+}
+
+.text-one {
+	color: darkcyan;
+	font-family: "lato_regular";
+	font-weight: 400;
+	font-size: 20px;
+	padding: 10px 0px 10px 0px;
+	margin: 0 auto;
+	width: 400px;
+	text-shadow: 3px 2px 4px #000;
+	line-height: 1.5;
+	/* white-space: nowrap; */
+	font-family: "SFProDisplay";
+	font-weight: 700;
+
+}
+
+.text-two {
+	color: rgb(117, 119, 255);
+	padding: 15px 0px 15px 0px;
+	margin: 0 auto;
+	width: 600px;
+	text-shadow: 5px 2px 5px #000;
+	line-height: 0.8;
+	text-indent: 25px;
+	letter-spacing: 15px;
+	font-family: "Lutsk-sity";
+	
+}
+
+.text-three {	
+	color: darkgreen;
+	font-style: italic;
+	padding: 10px 0px 10px 0px;
+	text-shadow: 12px 15px 10px #000;
+	width: 800px;
+	margin: 0 auto;
+	line-height: 1.4;
+	font-family: "AmerikaPro";
+	font-weight: 700;
+}
+
+.text-four {
+	background-color: darkolivegreen;
+}
+
+.text-four ~ p{
+	color: cadetblue;
+	padding: 20px 0px 15px 0px;
+	text-shadow: 1px 2px 10px #000;
+	width: 700px;
+	margin: 0 auto;
+	text-indent: 20px;
+	font-size: 20px;
+	
+
+}
+
+.subtitle-two {
+	color: darkmagenta;
+	padding: 30px;
+	text-shadow: 1px 2px 15px #000;
+	font-size: 30px;
+	font-style: italic;
+	text-transform: uppercase;
+	line-height: 1.3;
+	font-family: "Brozas";
+}
+
+.text-five {
+	color: darkred;
+	padding: 15px 0px 20px 0px;
+	width: 900px;
+	margin: 0 auto;
+	text-shadow: 1px 2px 15px #000;
+	word-spacing: 20px;
+	font-family: "KenyanCoffeeStencilSb";
+	
+}
+
+.subtitle-three {
+	color: darkolivegreen;
+	padding: 20px;
+	text-shadow: 1px 2px 10px #000;
+	font-size: 30px;
+	font-style: italic;
+	line-height: 1.2;
+	font-family: "Kramola";
+}
+
+.text-six {
+	color: darksalmon;
+	padding: 10px 0px 15px 0px;
+	text-shadow: 1px 2px 15px #000;
+	letter-spacing: 10px;
+	font-family: "RedOctober";
+}
+
+.text-seven + p{
+	color: rgb(218, 221, 63);
+	padding: 10px 40px 20px 40px;
+	text-shadow: 10px 2px 5px #000;
+	word-spacing: 30px;
+}
+
+.subtitle-four {
+	color: violet;
+	padding: 20px 0px 10px 0px;
+	text-shadow: 1px 2px 5px #000;
+	font-size: 30px;
+	font-style: italic;
+	font-family: "Veles";
+}
+
+.text-eight {
+	color: navy;
+	padding: 10px 20px 30px 30px;
+	text-shadow: 1px 2px 10px #000;
+	letter-spacing: 5px;
+	font-family: "RuslanDisplay";
+}
+
+.text-nine {
+	color: gold;
+	padding: 20px 50px 20px 50px;
+	text-shadow: 15px 5px 8px #000;
+	word-spacing: 15px;
+	font-family: "Veselka4F";
+}
+
+.text-ten {
+	color: maroon;
+	padding: 15px 60px 15px 60px;
+	text-shadow: 8px 20px 12px #000;
+	font-family: "StalinistOne";
+}
+
+.text-eleven {
+	color: yellowgreen;
+	padding: 12px 40px 12px 40px;
+	text-shadow: 8px 2px 6px #000;
+	letter-spacing: 8px;
+}
+
+.text-twelve {
+	padding: 12px 40px 12px 40px;
+	text-shadow: 10px 2px 3px #000;
+	word-spacing: 20px;
+}
+
+.text-description {
+	color: rgb(83, 102, 53);
+	padding: 15px 60px 15px 60px;
+	text-shadow: 8px 2px 12px #000;
+}
+
+.text-thirteen > p{
+	color: darkslategray;
+	padding: 15px 60px 15px 60px;
+	text-shadow: 8px 5px 12px #000;
+}
+
+.text-fifteen {
+	color: rgb(125, 102, 255);
+	padding: 15px 60px 15px 60px;
+	text-shadow: 5px 8px 12px #000;
+}
+
+.text-sixteen {
+	color: aquamarine;
+	padding: 15px 60px 15px 60px;
+	text-shadow: 20px 10px 12px #000;
+}
+
+.text-seventeen {
+	color: rgb(0, 170, 0);
+	padding: 15px 60px 15px 60px;
+	text-shadow: 8px 5px 15px #000;
+	font-family: "Kramola";
+}
+
+.text-eighteen {
+	color: rgb(172, 212, 63);
+	padding: 15px 60px 15px 60px;
+	text-shadow: 10px 8px 12px #000;
+}
+
+.text-nineteen {
+	color: darkslateblue;
+	padding: 15px 60px 15px 60px;
+	text-shadow: 2px 6px 16px #000;
+	font-family: "RuslanDisplay";
+}
+
+.text-twenty {
+	color: goldenrod;
+	padding: 15px 60px 15px 60px;
+	text-shadow: 7px 7px 2px #000;
+}
+
+.text-thirty {
+	color: rgb(104, 238, 164);
+	padding: 15px 60px 15px 60px;
+	text-shadow: 9px 3px 14px #000;
+	font-family: "Lobster";
+}
+
+.text.forty {
+	color: khaki;
+	padding: 15px 60px 15px 60px;
+	text-shadow: 8px 12px 6px #000;
+}
+
+div.block {
+	color: chartreuse;
+}
+
+.text-forty-one {
+	color: wheat;
+	padding: 15px 60px 15px 60px;
+	text-shadow: 8px 14px 8px #000;
+	word-spacing: 20px;
+	font-family: "Comforter";
+	font-size: 25px;
+}
+
+
+
