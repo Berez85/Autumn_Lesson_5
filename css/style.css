@@ -98,7 +98,7 @@
 @font-face {
 	font-family: "Brozas";
 	src: url("../fonts/Brozas-ExtraBlack.woff2") format("woff2"), url("../fonts/Brozas-ExtraBlack.woff") format("woff");
-	font-weight: 400;
+	font-weight: 900;
 	font-style: normal;
 	font-display: swap;
 }
@@ -211,7 +211,7 @@ body {
 .list-four {
 	color: tomato;
 	font-family: "Brozas";
-	font-weight: 400;
+	font-weight: 900;
 	font-size: 25px;
 	margin-bottom: 10px;
 }
